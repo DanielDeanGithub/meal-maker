@@ -19,3 +19,5 @@ menu.price = 5;
 
 console.log(menu._meal);
 console.log(menu._price);
+
+console.log(menu.todaysSpecial);
