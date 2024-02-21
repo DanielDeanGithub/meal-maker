@@ -5,6 +5,6 @@ const menu = {
         if (typeof mealToCheck === 'string') return this._meal = mealToCheck;
     },
     set price(priceToCheck) {
-        if (typeof priceToCheck === 'number') return this._meal = priceToCheck;
+        if (typeof priceToCheck === 'number') return this._price = priceToCheck;
     }
 };
