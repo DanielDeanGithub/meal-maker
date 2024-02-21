@@ -8,7 +8,9 @@ const menu = {
         if (typeof priceToCheck === 'number') return this._price = priceToCheck;
     },
     get todaysSpecial() {
-        
+        return this._meal && this._price ? 
+            `Today’s Special is ${this._meal} for $${this._price}!` :
+            'Meal or price was not set correctly!';
     }
 };
 
