@@ -6,6 +6,9 @@ const menu = {
     },
     set price(priceToCheck) {
         if (typeof priceToCheck === 'number') return this._price = priceToCheck;
+    },
+    get todaysSpecial() {
+        
     }
 };
 
