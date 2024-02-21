@@ -8,3 +8,9 @@ const menu = {
         if (typeof priceToCheck === 'number') return this._price = priceToCheck;
     }
 };
+
+menu.meal = 'pizza';
+menu.price = 5;
+
+console.log(menu._meal);
+console.log(menu._price);
